@@ -13,7 +13,9 @@ The following technology stack is used to deliver MyTipsAndTricks:
   3. Docker
   4. Kubernetes
   5. Redis (Node.js integration via NodeRedis; see project at https://github.com/NodeRedis/node_redis )
-
+     This project uses and launches a GCE pre-istalled and hosted Redis
+     (please see references at: https://cloud.google.com/nodejs/resources/databases/redis 
+      https://console.cloud.google.com/launcher/details/click-to-deploy-images/redis)
 
 Follow this link to go to MyTipsAndTricks;  http://104.154.44.62:8080/
 
