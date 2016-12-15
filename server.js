@@ -6,7 +6,14 @@ var Promise = require('promise');
 
 var stringIncr = require('string-incr');
 var redis = require('redis');
-var redisClient = redis.createClient({host: 'localhost', port: 6379});
+//var redisClient = redis.createClient({host: 'localhost', port: 6379});
+
+var nconf = require('nconf');
+nconf.argv().env().file('keys.json');
+
+var redisClient = redis.createClient(
+       nconf.get('redisPort') || '6379',
+       nconf.get('redisHost') || '127.0.0.1');
 
 redisClient.on('ready', function () {
     console.log("Redis is ready");
