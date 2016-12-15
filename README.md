@@ -2,17 +2,21 @@
 Tips and tricks application developed during Dec 2016 Hackathon
 
 
-The MyTipsAndTricks application is a cloud based application where we you can organize those tips and tricks that you use in an FAQ like manner.
+The MyTipsAndTricks application is a cloud based application where you can organize those tips and tricks that you frequently use in an FAQ like manner.
 The main page of the application lists all of your tips and tricks. To add more click on the Add New Tip button. 
 
-This application is hosted on Google Cloud Platform using GCP Compute Engine and Container Engine.
+This application is hosted on Google Cloud Platform using Google Compute Engine and Google Container Engine.
+
+The following technology stack is used to deliver MyTipsAndTricks:
+  1. Node.js (server side)
+  2. JavaScript/JQuery (UI client side)
+  3. Docker
+  4. Kubernetes
+  5. Redis (Node.js integration via NodeRedis; see project at https://github.com/NodeRedis/node_redis )
 
 
-nodejs
-kubernetes
-redis NodeRedis  project; https://github.com/NodeRedis/node_redis/blob/master/README.md
+Follow this link to go to MyTipsAndTricks;  http://104.154.44.62:8080/
 
-JQuery
-
+Enjoy!
 
 
