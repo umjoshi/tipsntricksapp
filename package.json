@@ -1,0 +1,18 @@
+{
+  "name": "mynodejsapp",
+  "version": "1.0.0",
+  "description": "My NodeJS app for Dec 2016 Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umjoshi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "promise": "^7.1.1",
+    "redis": "^2.6.3",
+    "string-incr": "^1.1.1"
+  }
+}
